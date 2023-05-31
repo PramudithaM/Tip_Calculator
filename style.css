@@ -1,0 +1,83 @@
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    background-color: #1f0410;
+    border-radius: 30px 30px 0px 0px;
+}
+
+div{
+    background-color: white;
+    padding: auto;
+    margin-left: 40%;
+    margin-top: 12%;
+    border-radius: 30px;
+    background: white;
+    width: 400px;
+    height: auto;
+   
+}
+
+body{
+    background-image: linear-gradient(to right, #25211e , #82110d);
+}
+
+table{
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 400px;
+    padding: auto;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 25px;
+}
+
+th, td{
+    text-align: center;
+    padding: 8px;
+
+}
+#tip_amount{
+    margin-left: 15%;
+}
+
+#service{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+    text-align: center;
+    margin-top: auto;
+}
+#calculate{
+    margin-left: 31%;
+    margin-top: 5%;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ae1736;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+}
+#amount,#thank,#total{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 1%;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="tip_cal.js"></script>
+        <title>TIP CALCULATOR</title>
+    </head>
+    <body>
+        <div>
+            <h1>TIP CALCULATOR</h1>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>How much was your Bill</td>   
+                    </tr>
+                    <tr>
+                        <td>$ : <input type="text" id="bill_amount"></td> 
+                    </tr>
+                    <tr>
+                        <td>How was your Service</td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <select id="service" name="Service">
+                                <option value= 0>-- Choose an Option --</option>
+                                <option value= 30>30% - Outstanding</option>
+                                <option value= 20>20% - Good</option>
+                                <option value= 15>15% - It was OK</option>
+                                <option value= 10>10% - Bad</option>
+                                <option value= 5>5% - Terrible</option>
+                          </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>How many people are sharing the Bill</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="tip_amount"> People</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <button id = "calculate" onclick= calculate()>CALCULATE </button>
+            <p  id = "total"></p>
+            <p  id = "amount"></p>
+            <p  id ="thank"></p>
+            
+        </div>
+
+    </body>
+</html>
